@@ -1,0 +1,3 @@
+*.uvguix.*
+JLinkLog.txt
+MDK-ARM/SystemView_FreeRTOS_Demo/*
