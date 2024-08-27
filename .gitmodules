@@ -1,3 +1,6 @@
 [submodule "ThirdUtils/dbger"]
 	path = ThirdUtils/dbger
 	url = https://github.com/ShadowThree/dbger.git
+[submodule "ThirdUtils/SystemView"]
+	path = ThirdUtils/SystemView
+	url = https://github.com/ShadowThree/SystemView.git

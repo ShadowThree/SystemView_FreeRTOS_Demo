@@ -85,6 +85,8 @@ int main(void)
   /* USER CODE BEGIN SysInit */
 	LOG_INIT();
 	LOG_DBG("\n\nSystemView FreeRTOS Demo\n");
+	
+	SEGGER_SYSVIEW_Conf();
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */

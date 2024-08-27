@@ -52,14 +52,14 @@ osThreadId_t myTask01Handle;
 const osThreadAttr_t myTask01_attributes = {
   .name = "myTask01",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityNormal,
+  .priority = (osPriority_t) osPriorityLow,
 };
 /* Definitions for myTask02 */
 osThreadId_t myTask02Handle;
 const osThreadAttr_t myTask02_attributes = {
   .name = "myTask02",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityLow,
+  .priority = (osPriority_t) osPriorityNormal,
 };
 /* Definitions for myTimer01 */
 osTimerId_t myTimer01Handle;
